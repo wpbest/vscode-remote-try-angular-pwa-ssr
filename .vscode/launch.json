@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome against localhost:4200, with sourcemaps",
+            "name": "Launch Chrome against localhost:4000, with sourcemaps",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:4200",
+            "url": "http://localhost:4000",
             "runtimeArgs": [
               "--new-window", 
               "--allow-file-access-from-files", 

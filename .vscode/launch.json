@@ -2,16 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch FireFox against localhost:4000",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "url": "http://localhost:4000",
-            "webRoot": "${workspaceFolder}",
-            "sourceMaps":"server"
-        },
-    
-        {
             "name": "Launch Chrome against localhost:4000, with sourcemaps",
             "type": "chrome",
             "request": "launch",
@@ -37,6 +27,15 @@
             "sourceMaps": true,
             "trace": "verbose",
             "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "Launch FireFox against localhost:4000, with sourcemaps",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:4000",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps":"server"
         }
     ]
 }

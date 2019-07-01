@@ -2,6 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch localhost",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:4000",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps":"server"
+        },
+    
+        {
             "name": "Launch Chrome against localhost:4000, with sourcemaps",
             "type": "chrome",
             "request": "launch",
@@ -18,7 +28,7 @@
             "sourceMaps": true,
             "trace": "verbose",
             "webRoot": "${workspaceRoot}"
-        }
+        },
         {
             "name": "Attach Chrome against, with sourcemaps",
             "type": "chrome",

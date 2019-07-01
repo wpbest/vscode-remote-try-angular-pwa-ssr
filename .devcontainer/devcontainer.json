@@ -10,8 +10,6 @@
 	// "postCreateCommand": "npm install",
 	"extensions": [
 		"Angular.ng-template",
-		"msjsdiag.debugger-for-chrome",
-		"ms-vscode.vscode-typescript-tslint-plugin",
-		"hbenl.vscode-firefox-debug"
+		"ms-vscode.vscode-typescript-tslint-plugin"
 	]
 }

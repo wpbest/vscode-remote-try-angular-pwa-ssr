@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome against localhost:4000, with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4000",
+            "runtimeArgs": [
+              "--new-window", 
+              "--allow-file-access-from-files", 
+              "--user-data-dir=${workspaceRoot}/user-data",
+              "--disk-cache-dir=${workspaceRoot}/disk-cache",
+              "--media-cache-dir=${workspaceRoot}/media-cache",
+              "--incognito",
+              "--remote-debugging-port=9222" 
+            ],                        
+            "sourceMaps": true,
+            "trace": "verbose",
+            "webRoot": "${workspaceRoot}"
+        }
+        {
+            "name": "Attach Chrome against, with sourcemaps",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "sourceMaps": true,
+            "trace": "verbose",
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}

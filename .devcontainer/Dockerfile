@@ -32,7 +32,7 @@ RUN apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 ENV DEBIAN_FRONTEND=dialog
-# Expose port 4000
-EXPOSE 4000
+# Expose port 4000 4200
+EXPOSE 4000 4200
 # Set the default shell to bash instead of sh
 ENV SHELL /bin/bash

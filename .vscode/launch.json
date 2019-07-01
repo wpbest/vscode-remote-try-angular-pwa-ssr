@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome against localhost:4000, with sourcemaps",
+            "name": "Launch Chrome against localhost:4200, with sourcemaps",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:4000",
+            "url": "http://localhost:4200",
             "runtimeArgs": [
               "--new-window", 
               "--allow-file-access-from-files", 
@@ -27,15 +27,6 @@
             "sourceMaps": true,
             "trace": "verbose",
             "webRoot": "${workspaceRoot}"
-        },
-        {
-            "name": "Launch FireFox against localhost:4000, with sourcemaps",
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "url": "http://localhost:4000",
-            "webRoot": "${workspaceFolder}",
-            "sourceMaps":"server"
         }
     ]
 }

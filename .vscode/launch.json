@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch localhost",
+            "name": "Launch FireFox against localhost:4000",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
